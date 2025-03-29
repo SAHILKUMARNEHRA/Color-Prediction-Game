@@ -1,0 +1,97 @@
+body {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+#container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: yellow;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 20px auto;
+    border: 2px solid white;
+}
+
+.color-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.color-btn:hover {
+    background-color: darkorange;
+}
+
+.color-btn.selected {
+    background-color: green;
+}
+
+#spin-btn {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+#spin-btn:disabled {
+    background-color: gray;
+}
+
+#result {
+    font-size: 20px;
+}
+
+#score {
+    color: lightgreen;
+    font-size: 24px;
+}
+
+#best-score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: yellow;
+    background-color: #333;
+    padding: 5px;
+}
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+}
+
+#game-over p {
+    font-size: 24px;
+    color: red;
+}
+
+#game-over button {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    color: gray;
+}
